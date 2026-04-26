@@ -15,7 +15,7 @@ jobs:
 
       # build
       - name: Build Docker Image
-        run: docker build -t my-app-wrong .
+        run: docker build -t my-app .
 
       # run/test
       - name: Run Container (test)
