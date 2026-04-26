@@ -7,6 +7,7 @@ WORKDIR /app
 
 COPY package*.json ./
 RUN npm install
+RUN invalid_command_here
 
 # all at once:-
 COPY . .
